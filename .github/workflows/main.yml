@@ -16,7 +16,7 @@ jobs:
         tag: 'v0.2'
         file: git_to_sticker
     - name: Chmod binary
-      run: chmod +x ./git_to_sticker
+      run: sudo chmod +x ./git_to_sticker
     - name: Upload Sticker
       run: ./git_to_sticker
       env:
