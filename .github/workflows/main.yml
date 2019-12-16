@@ -19,5 +19,5 @@ jobs:
       run: ./git_to_sticker
       env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-        USER_ID: ${{ secret.USER_ID }}
+        USER_ID: ${{ secrets.USER_ID }}
         PACK_NAME: HPKaddi
