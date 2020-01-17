@@ -13,7 +13,7 @@ jobs:
       uses: Legion2/download-release-action@v2.1.0
       with:
         repository: Kolpa/git_to_sticker
-        tag: 'v0.4'
+        tag: 'v0.5'
         file: git_to_sticker
     - name: Chmod binary
       run: sudo chmod +x ./git_to_sticker
